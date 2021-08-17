@@ -1,0 +1,33 @@
+<div class="video-component" >
+    <div class="video-component-thumb">
+        <img [src]="currVideo.thumbnail_360_url" class="video-thumb"  alt="hello">
+    </div>
+    <div>
+    
+    <div class="video-component-details">
+        <div class="video-title">
+            <h2><a target="_blank" [href]="currVideo['url']">{{currVideo.title}}</a></h2>
+        </div>
+        <div class="channel-info">
+            <img [src]="currVideo['owner.avatar_80_url']" class="channel-logo" alt="">
+            <br><br>
+            <p>{{currVideo['owner.username']}}</p>
+        </div>
+        <br>
+        <div class="details">
+          <div class="video-details">
+            <span class="label-title">Date Posted: </span>
+            <span class="details-data">{{currVideo.created_time * 1000 | date }} |</span>  
+          </div>  
+          <div class="video-details">
+            <span class="label-title">Views: </span>
+            <span class="details-data">{{currVideo.views_total}}</span>          
+          </div>
+          
+        </div>
+        <br>
+        <div class="btn-add">
+          <button (click)="add(currVideo.id,$event)" >Add to playlist</button>
+        </div>
+    </div>
+</div>

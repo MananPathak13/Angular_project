@@ -1,0 +1,27 @@
+#logo img{
+        display:block;
+        width:50%;
+        margin-left: auto;
+        margin-right: auto;
+    
+}
+#navigation{
+    text-align: center;
+}
+ul{
+    list-style-type:none;
+    padding-top:20px;
+}
+li{
+    display:inline;
+    margin-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color:rgb(87, 165, 230);
+}
+a:hover{
+    color: rgb(40, 95, 141);
+}

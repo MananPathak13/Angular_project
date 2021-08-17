@@ -1,0 +1,7 @@
+<div class="content-container">
+    <input matInput class="input" type="text" placeholder="  Enter here" [(ngModel)]="userinput">
+    <button class="btn" (click)="homescreen()">Search</button>
+</div>
+<div *ngIf = "isclick">
+    <app-listing></app-listing>
+</div>

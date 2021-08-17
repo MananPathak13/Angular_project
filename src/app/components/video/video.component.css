@@ -1,0 +1,77 @@
+.details{
+    display: flex;
+    flex-direction: row;
+}
+
+.video-details{
+    display: flex;
+    flex-direction: row;
+}
+
+.video-thumb{
+    width: 360px;
+    height:250px;
+}
+
+.video-details > .label-title{
+    font-weight: bold;
+}
+
+.channel-logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.channel-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.video-title > h2 {
+    color: #00ddfe;
+}
+
+.video-component{
+    display: flex;
+    flex-direction: row;
+}
+
+.video-component{
+    background-color: white;
+    margin: 1rem auto;
+    box-shadow: #666666 1px 1px 3px 0px;
+    width: 60vw;
+    align-items: center;
+}
+
+.video-component > .video-component-thumb, .video-component-details
+{
+    margin: 1rem;
+
+}
+
+.video-component-details > .video-title > h2 >a {
+    text-decoration: none;
+    color: #00ddfe;
+}
+
+.btn-add>button{
+    background-color: #00ddfe;
+    border-radius: 2rem;
+    border: 0px;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 15px;
+    box-shadow: #666666 1px 1px 3px 0px;
+}
+    .clicked{
+        color: #c0c0c0!important;
+        background-color: #ffffff!important;
+      
+    }
+
+.Playlist{
+    display: none;
+}
